@@ -23,9 +23,4 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.SSH_USER }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
-        script: |
-          . /home/deploy/.bashrc
-          && cd /var/www/labs/pomo
-          && git pull
-          && npm i
-          && npm run build
+        script: . /home/deploy/.bashrc && cd /var/www/labs/pomo && git pull && npm i && npm run build
