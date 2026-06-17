@@ -2,11 +2,11 @@
 
 ## Description
 
-![pomo logo](https://pomo.sourmayo.com/pomo.svg)
+![pomo logo](https://pomo.labs.relvas.me/pomo.svg)
 
 Pomo is a progressive pomodoro timer app, written in javascript with NextJS.
 
-Check it out at [pomo.sourmayo.com](https://pomo.sourmayo.com/)
+Check it out at [pomo.labs.relvas.me](https://pomo.labs.relvas.me/)
 
 ## Getting Started
 
