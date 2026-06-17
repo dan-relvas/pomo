@@ -23,4 +23,4 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.SSH_USER }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
-        script: cd /var/www/labs/pomo && /usr/bin/git pull && eval 'npm i && npm run build'
+        script: /bin/bash --login -c 'cd /var/www/labs/pomo && /usr/bin/git pull && npm i && npm run build'
